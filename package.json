@@ -1,0 +1,14 @@
+{
+  "name": "weatherapp",
+  "version": "0.0.1",
+  "dependencies": {
+    "express" : "~4.8.8",
+    "morgan" : "*",
+    "forever": "*",
+    "body-parser": "*",
+    "method-override": "*",
+    "ejs": "*",
+    "pg": "*",
+    "angular-ui-router": "latest"
+  }
+}
