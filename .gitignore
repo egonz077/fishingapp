@@ -3,4 +3,5 @@ node_modules/
 
 ## Webstorm ##
 *.iml
-.iml/
+.idea/
+config/
