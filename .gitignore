@@ -4,4 +4,6 @@ node_modules/
 ## Webstorm ##
 *.iml
 .idea/
-config/
+
+## API key ##
+config/env/development.js
