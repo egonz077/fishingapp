@@ -9,6 +9,7 @@
     "method-override": "*",
     "ejs": "*",
     "pg": "*",
-    "angular-ui-router": "latest"
+    "angular-ui-router": "latest",
+    "request": "latest"
   }
 }

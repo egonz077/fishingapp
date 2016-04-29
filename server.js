@@ -8,6 +8,10 @@ session = require('express-session');
 pg = require('pg');
 app = express()
 connectionString = require('./config/config');
+
+
+ var routes = require('./app/routes/routes')(app, express);
+app.use('/api', routes);
 console.log(connectionString)
 
 app.use(morgan('dev'))

@@ -1,1 +1,5 @@
-angular.module('fishingApp', ['appRoutes']);
+angular.module('fishingApp', [
+  'appRoutes',
+  'weatherCtrl',
+  'weatherService'
+]);

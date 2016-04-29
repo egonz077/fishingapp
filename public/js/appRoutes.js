@@ -5,16 +5,17 @@ angular.module('appRoutes', ['ui.router'])
 
   $stateProvider
 
-  //signin page
   .state('trips', {
     url:'/logger',
     templateUrl: "views/pages/trips.html",
 
   })
-  //sign out page
+  
   .state('weather', {
     url:'/weather',
     templateUrl: "views/pages/weather.html",
+		 controller: "weatherCtrl",
+		 controllerAs: "fuck"
 
   })
 	.state('home', {
