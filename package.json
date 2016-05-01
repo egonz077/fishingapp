@@ -10,6 +10,7 @@
     "ejs": "*",
     "pg": "*",
     "angular-ui-router": "latest",
-    "request": "latest"
+    "request": "latest",
+    "ng-table": "latest"
   }
 }

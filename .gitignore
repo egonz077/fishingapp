@@ -7,3 +7,6 @@ node_modules/
 
 ## API key ##
 config/env/development.js
+
+## json call example ##
+.json

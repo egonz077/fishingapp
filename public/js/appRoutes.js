@@ -10,12 +10,12 @@ angular.module('appRoutes', ['ui.router'])
     templateUrl: "views/pages/trips.html",
 
   })
-  
+
   .state('weather', {
     url:'/weather',
     templateUrl: "views/pages/weather.html",
 		 controller: "weatherCtrl",
-		 controllerAs: "fuck"
+		 controllerAs: "wctrl"
 
   })
 	.state('home', {
